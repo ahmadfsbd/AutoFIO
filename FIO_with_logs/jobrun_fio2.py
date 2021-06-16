@@ -18,7 +18,7 @@ user = '''centos'''
 pwd = None
 key_path = '''/home/osp_admin/ceph-key.pem'''
 results = {}
-fio_cmd = ('''sudo fio /home/centos/Data/jobfile.fio''')
+fio_cmd = '''sudo fio /home/centos/Data/jobfile.fio'''
 
 
 cwd = os.getcwd()
